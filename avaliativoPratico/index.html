@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Avaliativo prático</title>
+</head>
+
+<body>
+    <div id="titulo">Mercado
+
+    </div><br>
+
+    <fieldset>
+        <label>Nome produto:</label>
+        <input type="text" id="nomeProd" placeholder="Digite o produto">
+
+        <label>Valor do produto</label>
+        <input type="number" id="valorOri" placeholder="Digite o valor do produto">
+        
+        <label>Digite o % de desconto</label>
+        <input type="number" id="desconto" placeholder="Digite o $ de desconto">
+        <button onclick="calcDesconto()">Calcular</button>
+    </fieldset>
+
+    <section id="resultado">
+        <div class="res">
+            <p id="nome">Nome do produto: </p>
+            <p id="valorDesconto">Valor do desconto: </p>
+            <p id="valorFinal">Valor final do produto: </p>
+
+        </div>
+    </section>
+<script src="/script.js"></script>
+</body>
+
+</html>
